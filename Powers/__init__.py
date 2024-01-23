@@ -100,7 +100,7 @@ is_audd = False
 Audd = None
 if Config.AuDD_API:
     is_audd = True
-    Audd = Config.AuDD_API = None
+    Audd = Config.AuDD_API
     LOGGER.info("Found Audd api")
 
 is_rmbg = False
